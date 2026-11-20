@@ -1,4 +1,4 @@
-import os
+
 from dataclasses import dataclass
 from typing import Protocol
 
@@ -50,4 +50,4 @@ class Cart:
             raise ValueError("rate must be positive")
         return round(self.total() / rate, 2)
 
-        x=1+2
+     
